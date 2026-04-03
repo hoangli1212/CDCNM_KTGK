@@ -11,9 +11,9 @@ def health_check(request):
 @api_view(['GET'])
 def about(request):
     return Response({
-        "studentName": "Hoàng Hoàng",
-        "studentId": "YOUR_STUDENT_ID",
-        "className": "YOUR_CLASS"
+        "studentName": "Trương Phi Hoàng",
+        "studentId": "2251220277",
+        "className": "22CT4"
     })
 
 @api_view(['GET', 'POST'])
